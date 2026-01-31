@@ -1,0 +1,301 @@
+,Visit_ID,Patient_ID,Clinic_ID,Visit_Date,Procedure_Code,Amount,Quantity,is_refund,is_outlier,name,email,birth_date,region_code,Procedure_Name,Specialty,Standard_Cost,is_unrealistic_cost,Region_Code,Region_Name
+0,VQ1-10000,PT1026,CL103,2024-01-17,PROC013,96.02,1.0,False,False,Emerson Martin,emerson.martin@health.org,1981-08-14,SW,Imaging 23,Radiology,822.83,False,SW,Southwest
+1,VQ1-10001,PT1087,CL104,2024-01-16,PROC026,-479.5,1.0,True,False,Sawyer Miller,sawyer.miller@mail.com,1970-11-23,NE,Procedure 42,Neurology,421.4,False,NE,Northeast
+2,VQ1-10002,PT1015,CL109,2024-01-06,PROC023,61.93,2.0,False,False,Jordan Davis,jordan.davis@health.org,1993-02-26,,Lab Panel 30,Urology,671.73,False,,
+3,VQ1-10003,PT1010,CL101,2024-03-10,PROC014,32.6,1.0,False,False,Parker Williams,parker.williams@example.com,1948-03-12,,Therapy 25,Oncology,228.3,False,,
+4,VQ1-10004,PT1087,CL108,2024-03-06,PROC017,187.82,1.0,False,False,Sawyer Miller,sawyer.miller@mail.com,1970-11-23,NE,Screening 42,Dermatology,995.99,False,NE,Northeast
+5,VQ1-10005,PT1034,CL106,2024-02-03,PROC023,141.28,1.0,False,False,Taylor Hernandez,taylor.hernandezexample.com,1941-03-03,SE,Lab Panel 30,Urology,671.73,False,SE,Southeast
+6,VQ1-10006,PT1078,CL103,2024-01-09,PROC021,216.12,1.0,False,False,Casey Martin,casey.martin@health.org,1969-03-26,,Imaging 39,Urology,148.15,False,,
+7,VQ1-10007,PT1079,CL104,2024-01-21,PROC018,220.24,2.0,False,False,Dakota Taylor,dakota.taylor@mail.com,2000-03-20,MW,Follow-up 43,Pediatrics,196.12,False,MW,Midwest
+8,VQ1-10008,PT1066,CL108,2024-03-14,PROC020,238.44,3.0,False,False,Alex Brown,alex.brown@mail.com,1989-01-27,SW,Lab Panel 44,Cardiology,1160.04,False,SW,Southwest
+9,VQ1-10009,PT1113,CL106,2024-01-28,PROC020,193.58,2.0,False,False,Finley Johnson,finley.johnson@health.org,1996-05-23,SE,Lab Panel 44,Cardiology,1160.04,False,SE,Southeast
+10,VQ1-10010,PT1062,CL105,2024-01-08,PROC013,143.95,1.0,False,False,Parker Martin,parker.martin@health.org,1965-08-09,SE,Imaging 23,Radiology,822.83,False,SE,Southeast
+11,VQ1-10011,PT1033,CL105,2024-01-12,PROC013,70.54,2.0,False,False,Sawyer Taylor,sawyer.taylor@mail.com,1996-11-19,SE,Imaging 23,Radiology,822.83,False,SE,Southeast
+12,VQ1-10012,PT1052,CL108,2024-03-22,PROC001,8.62,1.0,False,False,Casey Jackson,casey.jackson@example.com,1978-09-21,NE,Screening 26,Cardiology,901.88,False,NE,Northeast
+13,VQ1-10013,PT1006,CL101,2024-03-14,PROC024,79.64,1.0,False,False,Casey Williams,casey.williams@health.org,1966-12-26,WC,Consult 40,Cardiology,885.01,False,WC,West Coast
+14,VQ1-10014,PT1113,CL108,2024-01-30,PROC014,181.61,1.0,False,False,Finley Johnson,finley.johnson@health.org,1996-05-23,SE,Therapy 25,Oncology,228.3,False,SE,Southeast
+15,VQ1-10015,PT1040,CL109,2024-02-14,PROC024,180.89,1.0,False,False,Reese Wilson,reese.wilson@example.com,1977-08-22,NE,Consult 40,Cardiology,885.01,False,NE,Northeast
+16,VQ1-10016,PT1045,CL103,2024-03-27,PROC008,130.3,2.0,False,False,Avery Garcia,avery.garcia@clinic.net,,SE,Procedure 45,Radiology,273.42,False,SE,Southeast
+17,VQ1-10017,PT1003,CL107,2024-02-08,PROC003,1527.07,1.0,False,True,Dakota Smith,dakota.smith@clinic.net,1986-02-24,SE,Consult 48,Radiology,685.74,False,SE,Southeast
+18,VQ1-10018,PT1022,CL102,2024-03-10,PROC009,145.92,1.0,False,False,Dakota Anderson,dakota.anderson@example.com,1987-10-04,NE,Imaging 8,Urology,857.26,False,NE,Northeast
+19,VQ1-10019,PT1106,CL103,2024-02-20,PROC026,195.04,1.0,False,False,Avery Rodriguez,avery.rodriguez@example.com,1994-03-04,,Procedure 42,Neurology,421.4,False,,
+20,VQ1-10020,PT1016,CL102,2024-02-16,PROC015,448.79,1.0,False,False,Quinn Williams,quinn.williams@health.org,1942-10-21,SE,Lab Panel 22,Urology,729.46,False,SE,Southeast
+21,VQ1-10021,PT1042,CL106,2024-01-09,PROC026,123.13,2.0,False,False,Morgan Miller,morgan.miller@mail.com,1980-03-01,,Procedure 42,Neurology,421.4,False,,
+22,VQ1-10022,PT1062,CL108,2024-02-23,PROC004,97.88,3.0,False,False,Parker Martin,parker.martin@health.org,1965-08-09,SE,Follow-up 42,Dermatology,980.77,False,SE,Southeast
+23,VQ1-10023,PT1004,CL102,2024-02-25,PROC027,173.68,2.0,False,False,Sawyer Jackson,sawyer.jackson@example.com,1963-06-02,SW,Screening 17,Radiology,,False,SW,Southwest
+24,VQ1-10024,PT1053,CL105,2024-01-20,PROC029,49.46,1.0,False,False,Reese Jackson,reese.jackson@health.org,1939-12-12,MW,Consult 26,Dermatology,79.15,False,MW,Midwest
+25,VQ1-10025,PT1043,CL104,2024-03-06,PROC023,110.02,2.0,False,False,Jamie Rodriguez,jamie.rodriguez@example.com,1938-10-23,NE,Lab Panel 30,Urology,671.73,False,NE,Northeast
+26,VQ1-10026,PT1063,CL102,2024-02-16,PROC014,68.11,3.0,False,False,Quinn Taylor,quinn.taylor@example.com,1985-01-17,NE,Therapy 25,Oncology,228.3,False,NE,Northeast
+27,VQ1-10027,PT1067,CL108,2024-01-29,PROC012,115.27,1.0,False,False,Jordan Lopez,jordan.lopez@mail.com,1935-02-22,,Therapy 34,Urology,158.08,False,,
+28,VQ1-10028,PT1019,CL103,2024-02-28,PROC018,187.73,2.0,False,False,Harper Gonzalez,harper.gonzalez@mail.com,1941-03-14,SW,Follow-up 43,Pediatrics,196.12,False,SW,Southwest
+29,VQ1-10029,PT1110,CL100,2024-02-20,PROC010,169.91,2.0,False,False,Jordan Rodriguez,jordan.rodriguez@mail.com,1970-08-17,NE,Lab Panel 16,Pediatrics,108.38,False,NE,Northeast
+30,VQ1-10030,PT1054,CL106,2024-01-22,PROC021,258.28,1.0,False,False,Morgan Hernandez,morgan.hernandez@clinic.net,1977-04-11,SW,Imaging 39,Urology,148.15,False,SW,Southwest
+31,VQ1-10031,PT1119,CL107,2024-01-22,PROC001,194.76,1.0,False,False,Hayden Miller,hayden.miller@mail.com,1999-11-10,NE,Screening 26,Cardiology,901.88,False,NE,Northeast
+32,VQ1-10032,PT1065,CL101,2024-01-01,PROC027,331.47,2.0,False,False,Quinn Garcia,quinn.garcia@clinic.net,1972-02-03,SW,Screening 17,Radiology,,False,SW,Southwest
+33,VQ1-10033,PT1064,CL100,2024-02-27,PROC023,133.44,1.0,False,False,Reese Rodriguez,reese.rodriguezmail.com,1991-04-12,SW,Lab Panel 30,Urology,671.73,False,SW,Southwest
+34,VQ1-10034,PT1086,CL101,2024-03-20,PROC015,147.78,3.0,False,False,Harper Martin,harper.martin@clinic.net,1934-12-05,NE,Lab Panel 22,Urology,729.46,False,NE,Northeast
+35,VQ1-10035,PT1035,CL106,2024-01-12,PROC020,84.1,3.0,False,False,Alex Williams,alex.williams@example.com,1966-11-05,SE,Lab Panel 44,Cardiology,1160.04,False,SE,Southeast
+36,VQ1-10036,PT1114,CL106,2024-02-09,PROC010,89.25,2.0,False,False,Taylor Johnson,taylor.johnson@mail.com,1966-03-18,SE,Lab Panel 16,Pediatrics,108.38,False,SE,Southeast
+37,VQ1-10037,PT1105,CL108,2024-03-24,PROC001,83.75,1.0,False,False,Reese Moore,reese.moore@mail.com,1997-01-05,NE,Screening 26,Cardiology,901.88,False,NE,Northeast
+38,VQ1-10038,PT1066,CL103,2024-02-18,PROC023,230.46,1.0,False,False,Alex Brown,alex.brown@mail.com,1989-01-27,SW,Lab Panel 30,Urology,671.73,False,SW,Southwest
+39,VQ1-10039,PT1070,CL107,2024-02-27,PROC005,328.68,1.0,False,False,Reese Martin,reese.martin@mail.com,1965-06-23,SW,Follow-up 35,Pediatrics,344.64,False,SW,Southwest
+40,VQ1-10040,PT1112,CL105,2024-02-26,PROC025,82.42,2.0,False,False,Reese Rodriguez,reese.rodriguez@clinic.net,1993-01-20,NW,Lab Panel 13,Orthopedics,1164.97,True,NW,Northwest
+41,VQ1-10041,PT1084,CL102,2024-02-12,PROC007,101.2,1.0,False,False,Hayden Garcia,hayden.garcia@health.org,1940-12-16,,Consult 7,Pediatrics,626.74,False,,
+42,VQ1-10042,PT1083,CL102,2024-03-11,PROC005,190.8,3.0,False,False,Hayden Martinez,hayden.martinez@mail.com,1983-07-10,,Follow-up 35,Pediatrics,344.64,False,,
+43,VQ1-10043,PT1091,CL103,2024-03-27,PROC015,90.43,2.0,False,False,Sawyer Wilson,sawyer.wilson@mail.com,1966-08-20,,Lab Panel 22,Urology,729.46,False,,
+44,VQ1-10044,PT1036,CL104,2024-01-25,PROC014,-250.62,2.0,True,False,Taylor Johnson,taylor.johnson@example.com,1974-12-07,SW,Therapy 25,Oncology,228.3,False,SW,Southwest
+45,VQ1-10045,PTDUP1,CL104,2024-01-27,PROC021,212.46,1.0,False,False,,,,,Imaging 39,Urology,148.15,False,,
+46,VQ1-10046,PT1077,CL109,2024-03-02,PROC009,245.59,1.0,False,False,Casey Rodriguez,casey.rodriguez@health.org,1936-04-27,NW,Imaging 8,Urology,857.26,False,NW,Northwest
+47,VQ1-10047,PT1099,CL107,2024-02-18,PROC027,11.88,2.0,False,False,Taylor Martinez,taylor.martinez@health.org,1940-03-17,WC,Screening 17,Radiology,,False,WC,West Coast
+48,VQ1-10048,PT1049,CL101,2024-03-09,PROC007,213.99,1.0,False,False,Jordan Hernandez,jordan.hernandez@clinic.net,1948-11-04,SW,Consult 7,Pediatrics,626.74,False,SW,Southwest
+49,VQ1-10049,PT1118,CL104,2024-01-24,PROC000,257.41,1.0,False,False,Parker Brown,parker.brown@health.org,1965-06-23,,Follow-up 2,Pediatrics,1.0,True,,
+50,VQ1-10050,PT1118,CL100,2024-03-07,PROC018,76.47,1.0,False,False,Parker Brown,parker.brown@health.org,1965-06-23,,Follow-up 43,Pediatrics,196.12,False,,
+51,VQ1-10051,PT1076,CL109,2024-01-02,PROC023,249.84,1.0,False,False,Emerson Gonzalez,emerson.gonzalez@health.org,1992-06-16,NW,Lab Panel 30,Urology,671.73,False,NW,Northwest
+52,VQ1-10052,PT1011,CL103,2024-01-27,PROC019,27.58,1.0,False,False,Quinn Anderson,quinn.anderson@health.org,1988-04-25,SW,Lab Panel 33,Dermatology,1002.05,False,SW,Southwest
+53,VQ1-10053,PT1083,CL109,2024-01-07,PROC008,106.94,1.0,False,False,Hayden Martinez,hayden.martinez@mail.com,1983-07-10,,Procedure 45,Radiology,273.42,False,,
+54,VQ1-10054,PT1089,CL101,2024-02-02,PROC028,-83.98,2.0,True,False,Avery Martinez,avery.martinez@mail.com,1952-03-20,SW,Follow-up 19,Orthopedics,554.82,False,SW,Southwest
+55,VQ1-10055,PT1042,CL100,2024-03-17,PROC018,205.25,1.0,False,False,Morgan Miller,morgan.miller@mail.com,1980-03-01,,Follow-up 43,Pediatrics,196.12,False,,
+56,VQ1-10056,PT1096,CL105,2024-02-13,PROC023,106.95,3.0,False,False,Dakota Taylor,dakota.taylor@clinic.net,1966-04-01,SW,Lab Panel 30,Urology,671.73,False,SW,Southwest
+57,VQ1-10057,PT1013,CL105,2024-03-08,PROC016,70.63,1.0,False,False,Dakota Garcia,dakota.garcia@mail.com,1940-05-09,SW,Follow-up 22,Neurology,337.79,False,SW,Southwest
+58,VQ1-10058,PT1115,CL104,2024-03-16,PROC029,28.09,1.0,False,False,Alex Martin,alex.martin@mail.com,1958-10-22,NE,Consult 26,Dermatology,79.15,False,NE,Northeast
+59,VQ1-10059,PT1075,CL105,2024-03-04,PROC025,116.56,1.0,False,False,Drew Rodriguez,drew.rodriguez@health.org,1949-01-09,WC,Lab Panel 13,Orthopedics,1164.97,True,WC,West Coast
+60,VQ1-10060,PT1099,CL103,2024-02-15,PROC027,108.36,2.0,False,False,Taylor Martinez,taylor.martinez@health.org,1940-03-17,WC,Screening 17,Radiology,,False,WC,West Coast
+61,VQ1-10061,PT1059,CL108,2024-02-19,PROC011,183.96,1.0,False,False,Finley Martinez,finley.martinez@example.com,1995-05-01,SW,Imaging 23,Radiology,81.76,False,SW,Southwest
+62,VQ1-10062,PT1066,CL108,2024-03-29,PROC003,378.64,1.0,False,False,Alex Brown,alex.brown@mail.com,1989-01-27,SW,Consult 48,Radiology,685.74,False,SW,Southwest
+63,VQ1-10063,PT1003,CL109,2024-01-28,PROC012,60.33,1.0,False,False,Dakota Smith,dakota.smith@clinic.net,1986-02-24,SE,Therapy 34,Urology,158.08,False,SE,Southeast
+64,VQ1-10064,PT1006,CL103,2024-01-09,PROC015,578.85,3.0,False,False,Casey Williams,casey.williams@health.org,1966-12-26,WC,Lab Panel 22,Urology,729.46,False,WC,West Coast
+65,VQ1-10065,PT1119,CL105,2024-01-17,PROC029,159.22,2.0,False,False,Hayden Miller,hayden.miller@mail.com,1999-11-10,NE,Consult 26,Dermatology,79.15,False,NE,Northeast
+66,VQ1-10066,PT1112,CL104,2024-01-15,PROC020,314.93,1.0,False,False,Reese Rodriguez,reese.rodriguez@clinic.net,1993-01-20,NW,Lab Panel 44,Cardiology,1160.04,False,NW,Northwest
+67,VQ1-10067,PT1046,CL104,2024-01-30,PROC015,244.31,3.0,False,False,Hayden Johnson,hayden.johnson@example.com,1984-07-17,,Lab Panel 22,Urology,729.46,False,,
+68,VQ1-10068,PT1089,CL102,2024-03-19,PROC012,81.79,3.0,False,False,Avery Martinez,avery.martinez@mail.com,1952-03-20,SW,Therapy 34,Urology,158.08,False,SW,Southwest
+69,VQ1-10069,PT1018,CL106,2024-03-21,PROC018,271.2,2.0,False,False,Quinn Jones,quinn.jones@health.org,,,Follow-up 43,Pediatrics,196.12,False,,
+70,VQ1-10070,PT1000,CL101,2024-03-12,PROC026,119.51,1.0,False,False,Casey Smith,casey.smith@mail.com,1985-11-08,SE,Procedure 42,Neurology,421.4,False,SE,Southeast
+71,VQ1-10071,PT1075,CL100,2024-01-04,PROC022,20.49,1.0,False,False,Drew Rodriguez,drew.rodriguez@health.org,1949-01-09,WC,Therapy 45,Urology,273.54,False,WC,West Coast
+72,VQ1-10072,PT1072,CL105,2024-01-02,PROC003,85.03,1.0,False,False,Avery Rodriguez,avery.rodriguez@example.com,1989-11-17,,Consult 48,Radiology,685.74,False,,
+73,VQ1-10073,PT1047,CL100,2024-02-29,PROC012,29.37,2.0,False,False,Quinn Anderson,quinn.anderson@clinic.net,,SW,Therapy 34,Urology,158.08,False,SW,Southwest
+74,VQ1-10074,PTDUP2,CL101,2024-01-17,PROC021,256.95,1.0,False,False,,,,,Imaging 39,Urology,148.15,False,,
+75,VQ1-10075,PT1036,CL100,2024-02-18,PROC025,188.63,3.0,False,False,Taylor Johnson,taylor.johnson@example.com,1974-12-07,SW,Lab Panel 13,Orthopedics,1164.97,True,SW,Southwest
+76,VQ1-10076,PT1098,CL103,2024-03-13,PROC002,83.78,3.0,False,False,Emerson Thomas,emerson.thomas@health.org,1953-08-08,NE,Consult 33,Oncology,207.11,False,NE,Northeast
+77,VQ1-10077,PT1069,CL103,2024-03-27,PROC026,225.5,1.0,False,False,Morgan Davis,morgan.davis@health.org,1986-12-26,SW,Procedure 42,Neurology,421.4,False,SW,Southwest
+78,VQ1-10078,PT1104,CL109,2024-03-19,PROC000,132.39,1.0,False,False,Rowan Smith,rowan.smith@health.org,1954-01-15,,Follow-up 2,Pediatrics,1.0,True,,
+79,VQ1-10079,PT1118,CL108,2024-01-24,PROC008,301.08,1.0,False,False,Parker Brown,parker.brown@health.org,1965-06-23,,Procedure 45,Radiology,273.42,False,,
+80,VQ1-10080,PT1117,CL102,2024-03-01,PROC000,189.33,3.0,False,False,Cameron Garcia,cameron.garcia@example.com,1979-08-18,SW,Follow-up 2,Pediatrics,1.0,True,SW,Southwest
+81,VQ1-10081,PT1024,CL105,2024-02-24,PROC000,-79.96,2.0,True,False,Parker Wilson,parker.wilson@example.com,1977-02-10,MW,Follow-up 2,Pediatrics,1.0,True,MW,Midwest
+82,VQ1-10082,PT1101,CL108,2024-03-01,PROC003,80.05,1.0,False,False,Riley Miller,riley.miller@clinic.net,1955-06-06,WC,Consult 48,Radiology,685.74,False,WC,West Coast
+83,VQ1-10083,PT1098,CL108,2024-01-17,PROC018,64.15,3.0,False,False,Emerson Thomas,emerson.thomas@health.org,1953-08-08,NE,Follow-up 43,Pediatrics,196.12,False,NE,Northeast
+84,VQ1-10084,PT1018,CL100,2024-01-10,PROC023,93.03,3.0,False,False,Quinn Jones,quinn.jones@health.org,,,Lab Panel 30,Urology,671.73,False,,
+85,VQ1-10085,PT1087,CL104,2024-03-26,PROC014,-227.32,2.0,True,False,Sawyer Miller,sawyer.miller@mail.com,1970-11-23,NE,Therapy 25,Oncology,228.3,False,NE,Northeast
+86,VQ1-10086,PT1094,CL106,2024-03-03,PROC013,45.38,2.0,False,False,Finley Davis,finley.davis@example.com,1999-06-03,NE,Imaging 23,Radiology,822.83,False,NE,Northeast
+87,VQ1-10087,PT1092,CL101,2024-01-12,PROC028,194.42,1.0,False,False,Rowan Gonzalez,rowan.gonzalez@example.com,2005-04-06,NE,Follow-up 19,Orthopedics,554.82,False,NE,Northeast
+88,VQ1-10088,PT1067,CL102,2024-02-25,PROC008,153.29,1.0,False,False,Jordan Lopez,jordan.lopez@mail.com,1935-02-22,,Procedure 45,Radiology,273.42,False,,
+89,VQ1-10089,PT1118,CL106,2024-03-05,PROC019,72.81,3.0,False,False,Parker Brown,parker.brown@health.org,1965-06-23,,Lab Panel 33,Dermatology,1002.05,False,,
+90,VQ1-10090,PT1081,CL106,2024-01-10,PROC003,68.3,3.0,False,False,Reese Williams,reese.williams@health.org,1966-08-07,WC,Consult 48,Radiology,685.74,False,WC,West Coast
+91,VQ1-10091,PT1078,CL103,2024-03-16,PROC013,163.58,1.0,False,False,Casey Martin,casey.martin@health.org,1969-03-26,,Imaging 23,Radiology,822.83,False,,
+92,VQ1-10092,PT1118,CL107,2024-01-30,PROC012,49.09,2.0,False,False,Parker Brown,parker.brown@health.org,1965-06-23,,Therapy 34,Urology,158.08,False,,
+93,VQ1-10093,PT1001,CL105,2024-02-16,PROC021,53.17,2.0,False,False,Riley Brown,riley.brown@example.com,1994-05-07,,Imaging 39,Urology,148.15,False,,
+94,VQ1-10094,PT1009,CL101,2024-03-03,PROC002,51.08,1.0,False,False,Harper Miller,harper.miller@example.com,1975-12-16,SE,Consult 33,Oncology,207.11,False,SE,Southeast
+95,VQ1-10095,PT1059,CL105,2024-02-06,PROC025,-58.23,3.0,True,False,Finley Martinez,finley.martinez@example.com,1995-05-01,SW,Lab Panel 13,Orthopedics,1164.97,True,SW,Southwest
+96,VQ1-10096,PT1119,CL108,2024-03-29,PROC010,184.35,2.0,False,False,Hayden Miller,hayden.miller@mail.com,1999-11-10,NE,Lab Panel 16,Pediatrics,108.38,False,NE,Northeast
+97,VQ1-10097,PT1100,CL100,2024-02-10,PROC009,241.16,3.0,False,False,Finley Williams,finley.williams@mail.com,1966-12-27,,Imaging 8,Urology,857.26,False,,
+98,VQ1-10098,PT1015,CL108,2024-02-01,PROC006,217.49,1.0,False,False,Jordan Davis,jordan.davis@health.org,1993-02-26,,Procedure 24,Pediatrics,1100.23,False,,
+99,VQ1-10099,PT1099,CL105,2024-03-20,PROC027,25.01,1.0,False,False,Taylor Martinez,taylor.martinez@health.org,1940-03-17,WC,Screening 17,Radiology,,False,WC,West Coast
+100,VQ1-10100,PT1064,CL109,2024-02-16,PROC007,244.18,3.0,False,False,Reese Rodriguez,reese.rodriguezmail.com,1991-04-12,SW,Consult 7,Pediatrics,626.74,False,SW,Southwest
+101,VQ1-10101,PT1040,CL109,2024-02-14,PROC021,-92.76,1.0,True,False,Reese Wilson,reese.wilson@example.com,1977-08-22,NE,Imaging 39,Urology,148.15,False,NE,Northeast
+102,VQ1-10102,PT1081,CL100,2024-01-06,PROC005,28.91,1.0,False,False,Reese Williams,reese.williams@health.org,1966-08-07,WC,Follow-up 35,Pediatrics,344.64,False,WC,West Coast
+103,VQ1-10103,PT1039,CL105,2024-01-18,PROC000,274.3,2.0,False,False,Reese Miller,reese.miller@clinic.net,1956-08-05,WC,Follow-up 2,Pediatrics,1.0,True,WC,West Coast
+104,VQ1-10104,PT1030,CL101,2024-03-16,PROC004,175.19,1.0,False,False,Rowan Williams,rowan.williams@mail.com,1974-01-25,SW,Follow-up 42,Dermatology,980.77,False,SW,Southwest
+105,VQ1-10105,PT1103,CL108,2024-01-20,PROC006,55.16,1.0,False,False,Hayden Jackson,hayden.jackson@example.com,1960-11-02,,Procedure 24,Pediatrics,1100.23,False,,
+106,VQ1-10106,PTDUP1,CL105,2024-01-30,PROC009,163.54,3.0,False,False,,,,,Imaging 8,Urology,857.26,False,,
+107,VQ1-10107,PT1119,CL109,2024-03-28,PROC002,21.44,3.0,False,False,Hayden Miller,hayden.miller@mail.com,1999-11-10,NE,Consult 33,Oncology,207.11,False,NE,Northeast
+108,VQ1-10108,PT1014,CL100,2024-03-20,PROC021,38.94,2.0,False,False,Sawyer Gonzalez,sawyer.gonzalez@mail.com,1972-02-04,WC,Imaging 39,Urology,148.15,False,WC,West Coast
+109,VQ1-10109,PT1077,CL107,2024-03-26,PROC019,301.0,3.0,False,False,Casey Rodriguez,casey.rodriguez@health.org,1936-04-27,NW,Lab Panel 33,Dermatology,1002.05,False,NW,Northwest
+110,VQ1-10110,PT1073,CL101,2024-03-22,PROC011,118.5,3.0,False,False,Jordan Thomas,jordan.thomas@clinic.net,1971-08-05,WC,Imaging 23,Radiology,81.76,False,WC,West Coast
+111,VQ1-10111,PT1000,CL107,2024-01-08,PROC016,-51.96,2.0,True,False,Casey Smith,casey.smith@mail.com,1985-11-08,SE,Follow-up 22,Neurology,337.79,False,SE,Southeast
+112,VQ1-10112,PT1031,CL109,2024-03-26,PROC001,1737.69,1.0,False,True,Rowan Moore,rowan.moore@clinic.net,2004-09-24,SE,Screening 26,Cardiology,901.88,False,SE,Southeast
+113,VQ1-10113,PT1090,CL102,2024-03-04,PROC024,13.22,1.0,False,False,Alex Johnson,alex.johnson@clinic.net,1957-06-24,NE,Consult 40,Cardiology,885.01,False,NE,Northeast
+114,VQ1-10114,PT1027,CL107,2024-02-18,PROC023,86.36,3.0,False,False,Finley Taylor,finley.taylor@health.org,1995-08-21,NE,Lab Panel 30,Urology,671.73,False,NE,Northeast
+115,VQ1-10115,PT1112,CL103,2024-01-10,PROC016,258.72,1.0,False,False,Reese Rodriguez,reese.rodriguez@clinic.net,1993-01-20,NW,Follow-up 22,Neurology,337.79,False,NW,Northwest
+116,VQ1-10116,PT1030,CL101,2024-03-17,PROC012,-150.99,1.0,True,False,Rowan Williams,rowan.williams@mail.com,1974-01-25,SW,Therapy 34,Urology,158.08,False,SW,Southwest
+117,VQ1-10117,PTDUP3,CL107,2024-03-13,PROC029,46.06,2.0,False,False,,,,,Consult 26,Dermatology,79.15,False,,
+118,VQ1-10118,PT1072,CL109,2024-03-04,PROC012,605.8,1.0,False,False,Avery Rodriguez,avery.rodriguez@example.com,1989-11-17,,Therapy 34,Urology,158.08,False,,
+119,VQ1-10119,PT1050,CL106,2024-02-01,PROC000,91.55,3.0,False,False,Emerson Garcia,emerson.garcia@example.com,1946-07-27,SW,Follow-up 2,Pediatrics,1.0,True,SW,Southwest
+120,VQ1-10120,PT1003,CL107,2024-01-31,PROC026,57.57,2.0,False,False,Dakota Smith,dakota.smith@clinic.net,1986-02-24,SE,Procedure 42,Neurology,421.4,False,SE,Southeast
+121,VQ1-10121,PT1096,CL101,2024-01-13,PROC007,30.88,1.0,False,False,Dakota Taylor,dakota.taylor@clinic.net,1966-04-01,SW,Consult 7,Pediatrics,626.74,False,SW,Southwest
+122,VQ1-10122,PT1076,CL106,2024-02-05,PROC027,93.61,1.0,False,False,Emerson Gonzalez,emerson.gonzalez@health.org,1992-06-16,NW,Screening 17,Radiology,,False,NW,Northwest
+123,VQ1-10123,PT1031,CL102,2024-03-06,PROC002,362.07,3.0,False,False,Rowan Moore,rowan.moore@clinic.net,2004-09-24,SE,Consult 33,Oncology,207.11,False,SE,Southeast
+124,VQ1-10124,PT1057,CL103,2024-01-11,PROC028,230.19,1.0,False,False,Finley Miller,finley.miller@mail.com,1936-07-06,WC,Follow-up 19,Orthopedics,554.82,False,WC,West Coast
+125,VQ1-10125,PT1001,CL103,2024-03-21,PROC003,142.48,3.0,False,False,Riley Brown,riley.brown@example.com,1994-05-07,,Consult 48,Radiology,685.74,False,,
+126,VQ1-10126,PT1046,CL102,2024-01-16,PROC024,42.83,2.0,False,False,Hayden Johnson,hayden.johnson@example.com,1984-07-17,,Consult 40,Cardiology,885.01,False,,
+127,VQ1-10127,PT1082,CL107,2024-02-21,PROC024,93.49,3.0,False,False,Casey Martinez,casey.martinez@clinic.net,1934-11-25,WC,Consult 40,Cardiology,885.01,False,WC,West Coast
+128,VQ1-10128,PT1042,CL109,2024-02-16,PROC010,283.65,1.0,False,False,Morgan Miller,morgan.miller@mail.com,1980-03-01,,Lab Panel 16,Pediatrics,108.38,False,,
+129,VQ1-10129,PT1071,CL107,2024-02-11,PROC002,140.67,1.0,False,False,Jamie Wilson,jamie.wilsonmail.com,2001-07-11,,Consult 33,Oncology,207.11,False,,
+130,VQ1-10130,PT1004,CL109,2024-03-29,PROC001,196.61,2.0,False,False,Sawyer Jackson,sawyer.jackson@example.com,1963-06-02,SW,Screening 26,Cardiology,901.88,False,SW,Southwest
+131,VQ1-10131,PT1042,CL107,2024-03-20,PROC001,64.54,1.0,False,False,Morgan Miller,morgan.miller@mail.com,1980-03-01,,Screening 26,Cardiology,901.88,False,,
+132,VQ1-10132,PT1027,CL101,2024-01-13,PROC019,313.99,3.0,False,False,Finley Taylor,finley.taylor@health.org,1995-08-21,NE,Lab Panel 33,Dermatology,1002.05,False,NE,Northeast
+133,VQ1-10133,PT1079,CL108,2024-01-20,PROC025,-14.03,3.0,True,False,Dakota Taylor,dakota.taylor@mail.com,2000-03-20,MW,Lab Panel 13,Orthopedics,1164.97,True,MW,Midwest
+134,VQ1-10134,PT1023,CL103,2024-01-31,PROC010,118.45,1.0,False,False,Finley Rodriguez,finley.rodriguez@health.org,1987-02-26,NE,Lab Panel 16,Pediatrics,108.38,False,NE,Northeast
+135,VQ1-10135,PT1071,CL107,2024-01-06,PROC003,111.06,1.0,False,False,Jamie Wilson,jamie.wilsonmail.com,2001-07-11,,Consult 48,Radiology,685.74,False,,
+136,VQ1-10136,PT1059,CL108,2024-03-21,PROC020,18.46,2.0,False,False,Finley Martinez,finley.martinez@example.com,1995-05-01,SW,Lab Panel 44,Cardiology,1160.04,False,SW,Southwest
+137,VQ1-10137,PT1018,CL107,2024-02-26,PROC016,249.32,1.0,False,False,Quinn Jones,quinn.jones@health.org,,,Follow-up 22,Neurology,337.79,False,,
+138,VQ1-10138,PT1110,CL104,2024-03-30,PROC012,139.94,3.0,False,False,Jordan Rodriguez,jordan.rodriguez@mail.com,1970-08-17,NE,Therapy 34,Urology,158.08,False,NE,Northeast
+139,VQ1-10139,PT1007,CL100,2024-01-05,PROC025,98.0,1.0,False,False,Dakota Rodriguez,dakota.rodriguez@clinic.net,1955-12-25,SW,Lab Panel 13,Orthopedics,1164.97,True,SW,Southwest
+140,VQ1-10140,PT1115,CL101,2024-02-01,PROC017,69.03,3.0,False,False,Alex Martin,alex.martin@mail.com,1958-10-22,NE,Screening 42,Dermatology,995.99,False,NE,Northeast
+141,VQ1-10141,PT1070,CL102,2024-03-13,PROC010,23.02,1.0,False,False,Reese Martin,reese.martin@mail.com,1965-06-23,SW,Lab Panel 16,Pediatrics,108.38,False,SW,Southwest
+142,VQ1-10142,PT1029,CL104,2024-01-14,PROC020,56.95,3.0,False,False,Jordan Davis,jordan.davis@example.com,1993-12-13,NE,Lab Panel 44,Cardiology,1160.04,False,NE,Northeast
+143,VQ1-10143,PT1114,CL101,2024-01-01,PROC009,430.95,1.0,False,False,Taylor Johnson,taylor.johnson@mail.com,1966-03-18,SE,Imaging 8,Urology,857.26,False,SE,Southeast
+144,VQ1-10144,PT1039,CL102,2024-03-29,PROC021,110.51,3.0,False,False,Reese Miller,reese.miller@clinic.net,1956-08-05,WC,Imaging 39,Urology,148.15,False,WC,West Coast
+145,VQ1-10145,PT1079,CL101,2024-01-14,PROC020,99.14,1.0,False,False,Dakota Taylor,dakota.taylor@mail.com,2000-03-20,MW,Lab Panel 44,Cardiology,1160.04,False,MW,Midwest
+146,VQ1-10146,PT1089,CL105,2024-02-08,PROC009,175.54,2.0,False,False,Avery Martinez,avery.martinez@mail.com,1952-03-20,SW,Imaging 8,Urology,857.26,False,SW,Southwest
+147,VQ1-10147,PT1021,CL103,2024-03-27,PROC007,27.95,1.0,False,False,Jamie Wilson,jamie.wilson@clinic.net,1937-02-06,,Consult 7,Pediatrics,626.74,False,,
+148,VQ1-10148,PT1020,CL101,2024-01-12,PROC016,225.56,3.0,False,False,Rowan Williams,rowan.williams@example.com,1969-02-08,SW,Follow-up 22,Neurology,337.79,False,SW,Southwest
+149,VQ1-10149,PT1095,CL100,2024-02-10,PROC021,85.98,1.0,False,False,Riley Anderson,riley.anderson@health.org,1994-09-04,NE,Imaging 39,Urology,148.15,False,NE,Northeast
+150,VQ2-20000,PT1095,,2024-06-24,PROC005,282.74,1.0,False,False,Riley Anderson,riley.anderson@health.org,1994-09-04,NE,Follow-up 35,Pediatrics,344.64,False,NE,Northeast
+151,VQ2-20001,PT1057,,2024-04-07,PROC021,189.71,2.0,False,False,Finley Miller,finley.miller@mail.com,1936-07-06,WC,Imaging 39,Urology,148.15,False,WC,West Coast
+152,VQ2-20002,PT1060,,2024-05-18,PROC025,225.22,3.0,False,False,Parker Brown,parker.brown@mail.com,1984-10-12,MW,Lab Panel 13,Orthopedics,1164.97,True,MW,Midwest
+153,VQ2-20003,PT1031,CL107,2024-04-07,PROC016,156.47,3.0,False,False,Rowan Moore,rowan.moore@clinic.net,2004-09-24,SE,Follow-up 22,Neurology,337.79,False,SE,Southeast
+154,VQ2-20004,PT1034,CL104,2024-04-07,PROC027,274.67,3.0,False,False,Taylor Hernandez,taylor.hernandezexample.com,1941-03-03,SE,Screening 17,Radiology,,False,SE,Southeast
+155,VQ2-20005,PT1095,,2024-05-19,PROC008,234.15,1.0,False,False,Riley Anderson,riley.anderson@health.org,1994-09-04,NE,Procedure 45,Radiology,273.42,False,NE,Northeast
+156,VQ2-20006,PT1020,CL103,2024-04-10,PROC013,176.21,1.0,False,False,Rowan Williams,rowan.williams@example.com,1969-02-08,SW,Imaging 23,Radiology,822.83,False,SW,Southwest
+157,VQ2-20007,PT1103,,2024-06-26,PROC029,116.94,1.0,False,False,Hayden Jackson,hayden.jackson@example.com,1960-11-02,,Consult 26,Dermatology,79.15,False,,
+158,VQ2-20008,PT1026,CL100,2024-04-12,PROC022,14.19,3.0,False,False,Emerson Martin,emerson.martin@health.org,1981-08-14,SW,Therapy 45,Urology,273.54,False,SW,Southwest
+159,VQ2-20009,PT1081,,2024-04-26,PROC006,33.22,3.0,False,False,Reese Williams,reese.williams@health.org,1966-08-07,WC,Procedure 24,Pediatrics,1100.23,False,WC,West Coast
+160,VQ2-20010,PT1013,,2024-05-28,PROC009,239.1,3.0,False,False,Dakota Garcia,dakota.garcia@mail.com,1940-05-09,SW,Imaging 8,Urology,857.26,False,SW,Southwest
+161,VQ2-20011,PT1117,CL101,2024-05-17,PROC019,141.56,1.0,False,False,Cameron Garcia,cameron.garcia@example.com,1979-08-18,SW,Lab Panel 33,Dermatology,1002.05,False,SW,Southwest
+162,VQ2-20012,PT1016,CL100,2024-04-27,PROC011,117.36,1.0,False,False,Quinn Williams,quinn.williams@health.org,1942-10-21,SE,Imaging 23,Radiology,81.76,False,SE,Southeast
+163,VQ2-20013,PT1118,CL101,2024-04-07,PROC017,156.06,2.0,False,False,Parker Brown,parker.brown@health.org,1965-06-23,,Screening 42,Dermatology,995.99,False,,
+164,VQ2-20014,PT1074,,2024-05-02,PROC008,188.59,1.0,False,False,Parker Davis,parker.davis@mail.com,2003-06-11,,Procedure 45,Radiology,273.42,False,,
+165,VQ2-20015,PT1093,,2024-06-27,PROC001,48.48,2.0,False,False,Reese Davis,reese.davis@clinic.net,1958-02-14,NW,Screening 26,Cardiology,901.88,False,NW,Northwest
+166,VQ2-20016,PT1084,CL107,2024-04-10,PROC022,53.09,1.0,False,False,Hayden Garcia,hayden.garcia@health.org,1940-12-16,,Therapy 45,Urology,273.54,False,,
+167,VQ2-20017,PT1032,,2024-06-22,PROC016,157.29,1.0,False,False,Finley Miller,finley.miller@clinic.net,1934-12-08,WC,Follow-up 22,Neurology,337.79,False,WC,West Coast
+168,VQ2-20018,PT1021,CL103,2024-04-13,PROC027,91.06,2.0,False,False,Jamie Wilson,jamie.wilson@clinic.net,1937-02-06,,Screening 17,Radiology,,False,,
+169,VQ2-20019,PT1025,,2024-04-16,PROC005,246.27,3.0,False,False,Emerson Garcia,emerson.garcia@example.com,1995-04-14,MW,Follow-up 35,Pediatrics,344.64,False,MW,Midwest
+170,VQ2-20020,PT1065,CL104,2024-04-14,PROC013,188.7,1.0,False,False,Quinn Garcia,quinn.garcia@clinic.net,1972-02-03,SW,Imaging 23,Radiology,822.83,False,SW,Southwest
+171,VQ2-20021,PT1056,,2024-05-23,PROC009,228.68,2.0,False,False,Sawyer Martin,sawyer.martin@example.com,1960-09-20,NE,Imaging 8,Urology,857.26,False,NE,Northeast
+172,VQ2-20022,PT1006,,2024-06-14,PROC019,313.18,1.0,False,False,Casey Williams,casey.williams@health.org,1966-12-26,WC,Lab Panel 33,Dermatology,1002.05,False,WC,West Coast
+173,VQ2-20023,PT1020,CL105,2024-06-13,PROC025,170.53,3.0,False,False,Rowan Williams,rowan.williams@example.com,1969-02-08,SW,Lab Panel 13,Orthopedics,1164.97,True,SW,Southwest
+174,VQ2-20024,PT1042,CL107,2024-06-02,PROC007,132.84,3.0,False,False,Morgan Miller,morgan.miller@mail.com,1980-03-01,,Consult 7,Pediatrics,626.74,False,,
+175,VQ2-20025,PT1078,CL109,2024-05-04,PROC011,223.02,3.0,False,False,Casey Martin,casey.martin@health.org,1969-03-26,,Imaging 23,Radiology,81.76,False,,
+176,VQ2-20026,PT1070,,2024-05-15,PROC007,-212.19,3.0,True,False,Reese Martin,reese.martin@mail.com,1965-06-23,SW,Consult 7,Pediatrics,626.74,False,SW,Southwest
+177,VQ2-20027,PT1052,,2024-05-15,PROC024,25.33,1.0,False,False,Casey Jackson,casey.jackson@example.com,1978-09-21,NE,Consult 40,Cardiology,885.01,False,NE,Northeast
+178,VQ2-20028,PT1100,,2024-05-24,PROC027,149.41,1.0,False,False,Finley Williams,finley.williams@mail.com,1966-12-27,,Screening 17,Radiology,,False,,
+179,VQ2-20029,PT1021,CL101,2024-04-28,PROC017,99.95,1.0,False,False,Jamie Wilson,jamie.wilson@clinic.net,1937-02-06,,Screening 42,Dermatology,995.99,False,,
+180,VQ2-20030,PT1070,CL105,2024-05-19,PROC006,149.52,1.0,False,False,Reese Martin,reese.martin@mail.com,1965-06-23,SW,Procedure 24,Pediatrics,1100.23,False,SW,Southwest
+181,VQ2-20031,PT1086,CL109,2024-05-01,PROC025,384.41,1.0,False,False,Harper Martin,harper.martin@clinic.net,1934-12-05,NE,Lab Panel 13,Orthopedics,1164.97,True,NE,Northeast
+182,VQ2-20032,PT1079,CL107,2024-05-28,PROC013,157.65,1.0,False,False,Dakota Taylor,dakota.taylor@mail.com,2000-03-20,MW,Imaging 23,Radiology,822.83,False,MW,Midwest
+183,VQ2-20033,PT1112,CL107,2024-06-03,PROC011,286.25,3.0,False,False,Reese Rodriguez,reese.rodriguez@clinic.net,1993-01-20,NW,Imaging 23,Radiology,81.76,False,NW,Northwest
+184,VQ2-20034,PT1112,CL106,2024-04-30,PROC029,137.06,1.0,False,False,Reese Rodriguez,reese.rodriguez@clinic.net,1993-01-20,NW,Consult 26,Dermatology,79.15,False,NW,Northwest
+185,VQ2-20035,PT1015,,2024-06-13,PROC011,72.77,1.0,False,False,Jordan Davis,jordan.davis@health.org,1993-02-26,,Imaging 23,Radiology,81.76,False,,
+186,VQ2-20036,PT1086,,2024-06-27,PROC004,184.22,1.0,False,False,Harper Martin,harper.martin@clinic.net,1934-12-05,NE,Follow-up 42,Dermatology,980.77,False,NE,Northeast
+187,VQ2-20037,PT1022,,2024-06-19,PROC021,174.67,3.0,False,False,Dakota Anderson,dakota.anderson@example.com,1987-10-04,NE,Imaging 39,Urology,148.15,False,NE,Northeast
+188,VQ2-20038,PT1012,CL100,2024-04-03,PROC020,348.69,3.0,False,False,Cameron Lopez,cameron.lopez@health.org,1936-05-19,NE,Lab Panel 44,Cardiology,1160.04,False,NE,Northeast
+189,VQ2-20039,PT1115,CL109,2024-06-13,PROC028,180.73,2.0,False,False,Alex Martin,alex.martin@mail.com,1958-10-22,NE,Follow-up 19,Orthopedics,554.82,False,NE,Northeast
+190,VQ2-20040,PT1021,CL106,2024-05-13,PROC002,188.11,2.0,False,False,Jamie Wilson,jamie.wilson@clinic.net,1937-02-06,,Consult 33,Oncology,207.11,False,,
+191,VQ2-20041,PT1093,,2024-06-30,PROC010,336.41,1.0,False,False,Reese Davis,reese.davis@clinic.net,1958-02-14,NW,Lab Panel 16,Pediatrics,108.38,False,NW,Northwest
+192,VQ2-20042,PT1069,CL105,2024-05-31,PROC017,212.65,2.0,False,False,Morgan Davis,morgan.davis@health.org,1986-12-26,SW,Screening 42,Dermatology,995.99,False,SW,Southwest
+193,VQ2-20043,PT1012,CL103,2024-05-05,PROC009,119.93,1.0,False,False,Cameron Lopez,cameron.lopez@health.org,1936-05-19,NE,Imaging 8,Urology,857.26,False,NE,Northeast
+194,VQ2-20044,PT1055,,2024-06-14,PROC024,223.8,1.0,False,False,Parker Anderson,parker.anderson@example.com,1995-01-01,NW,Consult 40,Cardiology,885.01,False,NW,Northwest
+195,VQ2-20045,PT1096,CL100,2024-05-30,PROC016,146.74,1.0,False,False,Dakota Taylor,dakota.taylor@clinic.net,1966-04-01,SW,Follow-up 22,Neurology,337.79,False,SW,Southwest
+196,VQ2-20046,PT1024,CL107,2024-04-02,PROC028,53.1,1.0,False,False,Parker Wilson,parker.wilson@example.com,1977-02-10,MW,Follow-up 19,Orthopedics,554.82,False,MW,Midwest
+197,VQ2-20047,PT1027,,2024-06-04,PROC023,110.55,1.0,False,False,Finley Taylor,finley.taylor@health.org,1995-08-21,NE,Lab Panel 30,Urology,671.73,False,NE,Northeast
+198,VQ2-20048,PT1042,,2024-04-05,PROC017,131.57,3.0,False,False,Morgan Miller,morgan.miller@mail.com,1980-03-01,,Screening 42,Dermatology,995.99,False,,
+199,VQ2-20049,PT1080,CL104,2024-04-07,PROC004,203.21,1.0,False,False,Jordan Wilson,jordan.wilsonexample.com,2004-04-09,WC,Follow-up 42,Dermatology,980.77,False,WC,West Coast
+200,VQ2-20050,PT1021,,2024-05-03,PROC019,116.95,1.0,False,False,Jamie Wilson,jamie.wilson@clinic.net,1937-02-06,,Lab Panel 33,Dermatology,1002.05,False,,
+201,VQ2-20051,PT1067,CL107,2024-05-19,PROC004,35.3,3.0,False,False,Jordan Lopez,jordan.lopez@mail.com,1935-02-22,,Follow-up 42,Dermatology,980.77,False,,
+202,VQ2-20052,PT1060,CL106,2024-05-17,PROC023,77.11,3.0,False,False,Parker Brown,parker.brown@mail.com,1984-10-12,MW,Lab Panel 30,Urology,671.73,False,MW,Midwest
+203,VQ2-20053,PT1103,,2024-04-25,PROC015,111.09,2.0,False,False,Hayden Jackson,hayden.jackson@example.com,1960-11-02,,Lab Panel 22,Urology,729.46,False,,
+204,VQ2-20054,PT1046,CL100,2024-04-27,PROC015,7.96,3.0,False,False,Hayden Johnson,hayden.johnson@example.com,1984-07-17,,Lab Panel 22,Urology,729.46,False,,
+205,VQ2-20055,PT1010,CL100,2024-05-08,PROC015,98.63,2.0,False,False,Parker Williams,parker.williams@example.com,1948-03-12,,Lab Panel 22,Urology,729.46,False,,
+206,VQ2-20056,PT1087,CL100,2024-04-09,PROC022,-79.65,1.0,True,False,Sawyer Miller,sawyer.miller@mail.com,1970-11-23,NE,Therapy 45,Urology,273.54,False,NE,Northeast
+207,VQ2-20057,PT1102,CL106,2024-04-17,PROC024,219.03,1.0,False,False,Finley Anderson,finley.anderson@mail.com,1984-06-08,,Consult 40,Cardiology,885.01,False,,
+208,VQ2-20058,PT1022,CL103,2024-04-17,PROC010,226.12,1.0,False,False,Dakota Anderson,dakota.anderson@example.com,1987-10-04,NE,Lab Panel 16,Pediatrics,108.38,False,NE,Northeast
+209,VQ2-20059,PT1025,CL105,2024-04-13,PROC011,334.95,1.0,False,False,Emerson Garcia,emerson.garcia@example.com,1995-04-14,MW,Imaging 23,Radiology,81.76,False,MW,Midwest
+210,VQ2-20060,PT1082,,2024-06-15,PROC008,55.07,1.0,False,False,Casey Martinez,casey.martinez@clinic.net,1934-11-25,WC,Procedure 45,Radiology,273.42,False,WC,West Coast
+211,VQ2-20061,PT1033,,2024-04-22,PROC015,39.64,1.0,False,False,Sawyer Taylor,sawyer.taylor@mail.com,1996-11-19,SE,Lab Panel 22,Urology,729.46,False,SE,Southeast
+212,VQ2-20062,PT1065,CL109,2024-06-02,PROC012,85.36,1.0,False,False,Quinn Garcia,quinn.garcia@clinic.net,1972-02-03,SW,Therapy 34,Urology,158.08,False,SW,Southwest
+213,VQ2-20063,PT1051,CL104,2024-05-25,PROC011,53.89,1.0,False,False,Taylor Martin,taylor.martin@mail.com,1961-02-10,,Imaging 23,Radiology,81.76,False,,
+214,VQ2-20064,PT1093,CL104,2024-05-03,PROC022,296.81,1.0,False,False,Reese Davis,reese.davis@clinic.net,1958-02-14,NW,Therapy 45,Urology,273.54,False,NW,Northwest
+215,VQ2-20065,PT1079,,2024-05-12,PROC020,98.87,2.0,False,False,Dakota Taylor,dakota.taylor@mail.com,2000-03-20,MW,Lab Panel 44,Cardiology,1160.04,False,MW,Midwest
+216,VQ2-20066,PT1037,CL100,2024-04-08,PROC029,328.74,2.0,False,False,Avery Rodriguez,avery.rodriguez@mail.com,2006-08-12,SW,Consult 26,Dermatology,79.15,False,SW,Southwest
+217,VQ2-20067,PT1000,,2024-04-29,PROC009,31.75,3.0,False,False,Casey Smith,casey.smith@mail.com,1985-11-08,SE,Imaging 8,Urology,857.26,False,SE,Southeast
+218,VQ2-20068,PT1086,,2024-04-08,PROC013,24.73,2.0,False,False,Harper Martin,harper.martin@clinic.net,1934-12-05,NE,Imaging 23,Radiology,822.83,False,NE,Northeast
+219,VQ2-20069,PT1074,CL107,2024-05-18,PROC000,73.17,1.0,False,False,Parker Davis,parker.davis@mail.com,2003-06-11,,Follow-up 2,Pediatrics,1.0,True,,
+220,VQ2-20070,PT1010,CL108,2024-04-09,PROC015,164.24,1.0,False,False,Parker Williams,parker.williams@example.com,1948-03-12,,Lab Panel 22,Urology,729.46,False,,
+221,VQ2-20071,PT1116,,2024-04-15,PROC023,134.58,1.0,False,False,Casey Jackson,casey.jackson@clinic.net,1991-03-08,MW,Lab Panel 30,Urology,671.73,False,MW,Midwest
+222,VQ2-20072,PT1106,,2024-06-26,PROC019,152.58,3.0,False,False,Avery Rodriguez,avery.rodriguez@example.com,1994-03-04,,Lab Panel 33,Dermatology,1002.05,False,,
+223,VQ2-20073,PT1045,CL105,2024-05-18,PROC005,136.13,1.0,False,False,Avery Garcia,avery.garcia@clinic.net,,SE,Follow-up 35,Pediatrics,344.64,False,SE,Southeast
+224,VQ2-20074,PT1019,CL106,2024-06-22,PROC024,66.96,3.0,False,False,Harper Gonzalez,harper.gonzalez@mail.com,1941-03-14,SW,Consult 40,Cardiology,885.01,False,SW,Southwest
+225,VQ2-20075,PT1019,,2024-06-10,PROC001,36.24,3.0,False,False,Harper Gonzalez,harper.gonzalez@mail.com,1941-03-14,SW,Screening 26,Cardiology,901.88,False,SW,Southwest
+226,VQ2-20076,PT1029,,2024-06-17,PROC019,313.45,2.0,False,False,Jordan Davis,jordan.davis@example.com,1993-12-13,NE,Lab Panel 33,Dermatology,1002.05,False,NE,Northeast
+227,VQ2-20077,PT1059,CL106,2024-04-19,PROC029,93.64,1.0,False,False,Finley Martinez,finley.martinez@example.com,1995-05-01,SW,Consult 26,Dermatology,79.15,False,SW,Southwest
+228,VQ2-20078,PT1080,CL101,2024-04-16,PROC014,34.36,1.0,False,False,Jordan Wilson,jordan.wilsonexample.com,2004-04-09,WC,Therapy 25,Oncology,228.3,False,WC,West Coast
+229,VQ2-20079,PT1029,,2024-04-22,PROC018,212.66,2.0,False,False,Jordan Davis,jordan.davis@example.com,1993-12-13,NE,Follow-up 43,Pediatrics,196.12,False,NE,Northeast
+230,VQ2-20080,PTDUP3,CL103,2024-05-31,PROC002,87.86,1.0,False,False,,,,,Consult 33,Oncology,207.11,False,,
+231,VQ2-20081,PT1070,CL107,2024-04-27,PROC001,281.37,1.0,False,False,Reese Martin,reese.martin@mail.com,1965-06-23,SW,Screening 26,Cardiology,901.88,False,SW,Southwest
+232,VQ2-20082,PT1055,,2024-04-02,PROC018,179.35,3.0,False,False,Parker Anderson,parker.anderson@example.com,1995-01-01,NW,Follow-up 43,Pediatrics,196.12,False,NW,Northwest
+233,VQ2-20083,PT1048,CL100,2024-06-18,PROC009,58.24,2.0,False,False,Morgan Martinez,morgan.martinez@example.com,1956-07-13,SW,Imaging 8,Urology,857.26,False,SW,Southwest
+234,VQ2-20084,PT1073,CL106,2024-05-29,PROC012,14.2,1.0,False,False,Jordan Thomas,jordan.thomas@clinic.net,1971-08-05,WC,Therapy 34,Urology,158.08,False,WC,West Coast
+235,VQ2-20085,PT1035,CL102,2024-05-23,PROC012,134.71,1.0,False,False,Alex Williams,alex.williams@example.com,1966-11-05,SE,Therapy 34,Urology,158.08,False,SE,Southeast
+236,VQ2-20086,PT1107,CL107,2024-05-26,PROC013,139.28,1.0,False,False,Drew Gonzalez,drew.gonzalez@clinic.net,1968-01-17,SW,Imaging 23,Radiology,822.83,False,SW,Southwest
+237,VQ2-20087,PT1095,CL102,2024-06-04,PROC001,172.55,1.0,False,False,Riley Anderson,riley.anderson@health.org,1994-09-04,NE,Screening 26,Cardiology,901.88,False,NE,Northeast
+238,VQ2-20088,PT1103,CL103,2024-04-06,PROC019,27.73,1.0,False,False,Hayden Jackson,hayden.jackson@example.com,1960-11-02,,Lab Panel 33,Dermatology,1002.05,False,,
+239,VQ2-20089,PT1090,CL100,2024-05-11,PROC007,187.34,1.0,False,False,Alex Johnson,alex.johnson@clinic.net,1957-06-24,NE,Consult 7,Pediatrics,626.74,False,NE,Northeast
+240,VQ2-20090,PT1021,CL103,2024-06-15,PROC010,254.84,1.0,False,False,Jamie Wilson,jamie.wilson@clinic.net,1937-02-06,,Lab Panel 16,Pediatrics,108.38,False,,
+241,VQ2-20091,PT1119,,2024-06-17,PROC013,152.87,1.0,False,False,Hayden Miller,hayden.miller@mail.com,1999-11-10,NE,Imaging 23,Radiology,822.83,False,NE,Northeast
+242,VQ2-20092,PT1095,CL106,2024-05-09,PROC011,150.7,1.0,False,False,Riley Anderson,riley.anderson@health.org,1994-09-04,NE,Imaging 23,Radiology,81.76,False,NE,Northeast
+243,VQ2-20093,PT1031,,2024-06-24,PROC012,93.69,1.0,False,False,Rowan Moore,rowan.moore@clinic.net,2004-09-24,SE,Therapy 34,Urology,158.08,False,SE,Southeast
+244,VQ2-20094,PT1093,CL104,2024-05-17,PROC017,53.38,2.0,False,False,Reese Davis,reese.davis@clinic.net,1958-02-14,NW,Screening 42,Dermatology,995.99,False,NW,Northwest
+245,VQ2-20095,PT1116,,2024-04-25,PROC020,208.06,3.0,False,False,Casey Jackson,casey.jackson@clinic.net,1991-03-08,MW,Lab Panel 44,Cardiology,1160.04,False,MW,Midwest
+246,VQ2-20096,PT1063,CL100,2024-06-24,PROC021,-183.29,3.0,True,False,Quinn Taylor,quinn.taylor@example.com,1985-01-17,NE,Imaging 39,Urology,148.15,False,NE,Northeast
+247,VQ2-20097,PT1027,,2024-06-20,PROC027,72.87,1.0,False,False,Finley Taylor,finley.taylor@health.org,1995-08-21,NE,Screening 17,Radiology,,False,NE,Northeast
+248,VQ2-20098,PT1021,,2024-06-26,PROC022,179.8,3.0,False,False,Jamie Wilson,jamie.wilson@clinic.net,1937-02-06,,Therapy 45,Urology,273.54,False,,
+249,VQ2-20099,PT1033,CL104,2024-05-30,PROC017,119.94,2.0,False,False,Sawyer Taylor,sawyer.taylor@mail.com,1996-11-19,SE,Screening 42,Dermatology,995.99,False,SE,Southeast
+250,VQ2-20100,PT1040,,2024-04-10,PROC029,366.98,1.0,False,False,Reese Wilson,reese.wilson@example.com,1977-08-22,NE,Consult 26,Dermatology,79.15,False,NE,Northeast
+251,VQ2-20101,PT1044,CL104,2024-05-24,PROC029,84.75,1.0,False,False,Finley Brown,finley.brown@example.com,1947-07-27,NE,Consult 26,Dermatology,79.15,False,NE,Northeast
+252,VQ2-20102,PT1055,CL106,2024-04-13,PROC026,32.04,1.0,False,False,Parker Anderson,parker.anderson@example.com,1995-01-01,NW,Procedure 42,Neurology,421.4,False,NW,Northwest
+253,VQ2-20103,PT1112,CL107,2024-05-08,PROC005,68.3,3.0,False,False,Reese Rodriguez,reese.rodriguez@clinic.net,1993-01-20,NW,Follow-up 35,Pediatrics,344.64,False,NW,Northwest
+254,VQ2-20104,PT1055,CL107,2024-06-22,PROC016,29.48,1.0,False,False,Parker Anderson,parker.anderson@example.com,1995-01-01,NW,Follow-up 22,Neurology,337.79,False,NW,Northwest
+255,VQ2-20105,PT1055,,2024-06-03,PROC002,-71.11,1.0,True,False,Parker Anderson,parker.anderson@example.com,1995-01-01,NW,Consult 33,Oncology,207.11,False,NW,Northwest
+256,VQ2-20106,PT1115,CL109,2024-05-28,PROC021,-328.05,1.0,True,False,Alex Martin,alex.martin@mail.com,1958-10-22,NE,Imaging 39,Urology,148.15,False,NE,Northeast
+257,VQ2-20107,PT1100,CL104,2024-05-20,PROC009,1223.41,1.0,False,True,Finley Williams,finley.williams@mail.com,1966-12-27,,Imaging 8,Urology,857.26,False,,
+258,VQ2-20108,PT1000,,2024-05-24,PROC007,270.81,1.0,False,False,Casey Smith,casey.smith@mail.com,1985-11-08,SE,Consult 7,Pediatrics,626.74,False,SE,Southeast
+259,VQ2-20109,PT1065,CL101,2024-04-15,PROC014,48.26,1.0,False,False,Quinn Garcia,quinn.garcia@clinic.net,1972-02-03,SW,Therapy 25,Oncology,228.3,False,SW,Southwest
+260,VQ2-20110,PTDUP1,CL101,2024-04-01,PROC012,-47.22,1.0,True,False,,,,,Therapy 34,Urology,158.08,False,,
+261,VQ2-20111,PT1002,,2024-05-23,PROC018,37.89,1.0,False,False,Jordan Smith,jordan.smith@mail.com,1957-03-22,SW,Follow-up 43,Pediatrics,196.12,False,SW,Southwest
+262,VQ2-20112,PT1051,CL103,2024-04-28,PROC008,46.18,3.0,False,False,Taylor Martin,taylor.martin@mail.com,1961-02-10,,Procedure 45,Radiology,273.42,False,,
+263,VQ2-20113,PT1100,,2024-04-19,PROC000,84.08,2.0,False,False,Finley Williams,finley.williams@mail.com,1966-12-27,,Follow-up 2,Pediatrics,1.0,True,,
+264,VQ2-20114,PT1029,CL102,2024-05-16,PROC007,284.52,3.0,False,False,Jordan Davis,jordan.davis@example.com,1993-12-13,NE,Consult 7,Pediatrics,626.74,False,NE,Northeast
+265,VQ2-20115,PT1079,CL105,2024-06-22,PROC016,222.5,1.0,False,False,Dakota Taylor,dakota.taylor@mail.com,2000-03-20,MW,Follow-up 22,Neurology,337.79,False,MW,Midwest
+266,VQ2-20116,PT1106,CL109,2024-05-29,PROC019,283.49,1.0,False,False,Avery Rodriguez,avery.rodriguez@example.com,1994-03-04,,Lab Panel 33,Dermatology,1002.05,False,,
+267,VQ2-20117,PT1094,,2024-06-06,PROC017,48.21,2.0,False,False,Finley Davis,finley.davis@example.com,1999-06-03,NE,Screening 42,Dermatology,995.99,False,NE,Northeast
+268,VQ2-20118,PTDUP2,,2024-05-19,PROC022,146.42,1.0,False,False,,,,,Therapy 45,Urology,273.54,False,,
+269,VQ2-20119,PT1110,CL106,2024-05-05,PROC002,1084.42,1.0,False,False,Jordan Rodriguez,jordan.rodriguez@mail.com,1970-08-17,NE,Consult 33,Oncology,207.11,False,NE,Northeast
+270,VQ2-20120,PT1089,,2024-04-09,PROC013,51.95,1.0,False,False,Avery Martinez,avery.martinez@mail.com,1952-03-20,SW,Imaging 23,Radiology,822.83,False,SW,Southwest
+271,VQ2-20121,PT1095,CL101,2024-05-24,PROC019,97.52,1.0,False,False,Riley Anderson,riley.anderson@health.org,1994-09-04,NE,Lab Panel 33,Dermatology,1002.05,False,NE,Northeast
+272,VQ2-20122,PT1067,CL101,2024-06-21,PROC028,209.03,2.0,False,False,Jordan Lopez,jordan.lopez@mail.com,1935-02-22,,Follow-up 19,Orthopedics,554.82,False,,
+273,VQ2-20123,PT1038,,2024-05-11,PROC008,283.52,2.0,False,False,Riley Jackson,riley.jackson@mail.com,1967-01-16,NE,Procedure 45,Radiology,273.42,False,NE,Northeast
+274,VQ2-20124,PT1049,,2024-06-28,PROC008,61.48,3.0,False,False,Jordan Hernandez,jordan.hernandez@clinic.net,1948-11-04,SW,Procedure 45,Radiology,273.42,False,SW,Southwest
+275,VQ2-20125,PT1045,,2024-06-20,PROC009,526.37,2.0,False,False,Avery Garcia,avery.garcia@clinic.net,,SE,Imaging 8,Urology,857.26,False,SE,Southeast
+276,VQ2-20126,PT1075,CL107,2024-05-12,PROC026,185.52,1.0,False,False,Drew Rodriguez,drew.rodriguez@health.org,1949-01-09,WC,Procedure 42,Neurology,421.4,False,WC,West Coast
+277,VQ2-20127,PT1079,CL109,2024-04-03,PROC010,28.95,2.0,False,False,Dakota Taylor,dakota.taylor@mail.com,2000-03-20,MW,Lab Panel 16,Pediatrics,108.38,False,MW,Midwest
+278,VQ2-20128,PTDUP2,CL103,2024-04-23,PROC008,80.09,3.0,False,False,,,,,Procedure 45,Radiology,273.42,False,,
+279,VQ2-20129,PT1003,,2024-05-01,PROC021,-268.87,1.0,True,False,Dakota Smith,dakota.smith@clinic.net,1986-02-24,SE,Imaging 39,Urology,148.15,False,SE,Southeast
+280,VQ2-20130,PT1118,CL104,2024-05-08,PROC021,191.84,1.0,False,False,Parker Brown,parker.brown@health.org,1965-06-23,,Imaging 39,Urology,148.15,False,,
+281,VQ2-20131,PT1108,CL106,2024-06-13,PROC019,120.75,2.0,False,False,Dakota Moore,dakota.mooremail.com,1977-12-14,NW,Lab Panel 33,Dermatology,1002.05,False,NW,Northwest
+282,VQ2-20132,PT1090,CL105,2024-06-20,PROC019,350.3,1.0,False,False,Alex Johnson,alex.johnson@clinic.net,1957-06-24,NE,Lab Panel 33,Dermatology,1002.05,False,NE,Northeast
+283,VQ2-20133,PT1049,CL100,2024-05-22,PROC020,201.1,2.0,False,False,Jordan Hernandez,jordan.hernandez@clinic.net,1948-11-04,SW,Lab Panel 44,Cardiology,1160.04,False,SW,Southwest
+284,VQ2-20134,PT1033,,2024-06-17,PROC007,25.17,3.0,False,False,Sawyer Taylor,sawyer.taylor@mail.com,1996-11-19,SE,Consult 7,Pediatrics,626.74,False,SE,Southeast
+285,VQ2-20135,PT1016,CL107,2024-05-11,PROC014,134.73,1.0,False,False,Quinn Williams,quinn.williams@health.org,1942-10-21,SE,Therapy 25,Oncology,228.3,False,SE,Southeast
+286,VQ2-20136,PT1063,,2024-05-24,PROC013,221.56,1.0,False,False,Quinn Taylor,quinn.taylor@example.com,1985-01-17,NE,Imaging 23,Radiology,822.83,False,NE,Northeast
+287,VQ2-20137,PT1096,CL104,2024-06-14,PROC025,232.36,2.0,False,False,Dakota Taylor,dakota.taylor@clinic.net,1966-04-01,SW,Lab Panel 13,Orthopedics,1164.97,True,SW,Southwest
+288,VQ2-20138,PT1117,,2024-06-08,PROC001,283.76,1.0,False,False,Cameron Garcia,cameron.garcia@example.com,1979-08-18,SW,Screening 26,Cardiology,901.88,False,SW,Southwest
+289,VQ2-20139,PT1077,,2024-06-21,PROC017,27.95,1.0,False,False,Casey Rodriguez,casey.rodriguez@health.org,1936-04-27,NW,Screening 42,Dermatology,995.99,False,NW,Northwest
+290,VQ2-20140,PT1071,CL102,2024-06-30,PROC012,2653.07,3.0,False,True,Jamie Wilson,jamie.wilsonmail.com,2001-07-11,,Therapy 34,Urology,158.08,False,,
+291,VQ2-20141,PT1081,,2024-05-31,PROC006,54.58,3.0,False,False,Reese Williams,reese.williams@health.org,1966-08-07,WC,Procedure 24,Pediatrics,1100.23,False,WC,West Coast
+292,VQ2-20142,PT1039,,2024-05-22,PROC010,229.05,2.0,False,False,Reese Miller,reese.miller@clinic.net,1956-08-05,WC,Lab Panel 16,Pediatrics,108.38,False,WC,West Coast
+293,VQ2-20143,PT1073,CL105,2024-06-07,PROC019,157.59,2.0,False,False,Jordan Thomas,jordan.thomas@clinic.net,1971-08-05,WC,Lab Panel 33,Dermatology,1002.05,False,WC,West Coast
+294,VQ2-20144,PT1046,CL104,2024-06-07,PROC018,347.71,1.0,False,False,Hayden Johnson,hayden.johnson@example.com,1984-07-17,,Follow-up 43,Pediatrics,196.12,False,,
+295,VQ2-20145,PT1031,,2024-04-01,PROC016,34.89,2.0,False,False,Rowan Moore,rowan.moore@clinic.net,2004-09-24,SE,Follow-up 22,Neurology,337.79,False,SE,Southeast
+296,VQ2-20146,PT1113,,2024-05-22,PROC017,129.75,2.0,False,False,Finley Johnson,finley.johnson@health.org,1996-05-23,SE,Screening 42,Dermatology,995.99,False,SE,Southeast
+297,VQ2-20147,PT1052,CL109,2024-05-02,PROC015,132.42,3.0,False,False,Casey Jackson,casey.jackson@example.com,1978-09-21,NE,Lab Panel 22,Urology,729.46,False,NE,Northeast
+298,VQ2-20148,PT1073,CL106,2024-06-07,PROC022,50.59,1.0,False,False,Jordan Thomas,jordan.thomas@clinic.net,1971-08-05,WC,Therapy 45,Urology,273.54,False,WC,West Coast
+299,VQ2-20149,PT1007,,2024-06-17,PROC007,252.13,2.0,False,False,Dakota Rodriguez,dakota.rodriguez@clinic.net,1955-12-25,SW,Consult 7,Pediatrics,626.74,False,SW,Southwest
