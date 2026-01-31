@@ -1,28 +1,89 @@
-# Synthetic Healthcare EDA
+# Healthcare Visit Analysis
 
-Exploratory data analysis on a synthetic healthcare dataset at the patient-visit level.
+Exploratory data analysis of synthetic healthcare visit data, examining visit-level costs, procedures, and revenue patterns across clinics and specialties.
 
-## Overview
-This repository documents an EDA project focused on understanding patient visit patterns,
-costs, procedure utilization, and temporal behavior using synthetic healthcare data.
-The emphasis is on clean data preparation, reproducibility, and clear analytical reasoning.
+## Project Structure
 
-## Data
-The dataset is a **synthetic healthcare dataset** provided in an educational setting.
-Each row represents a single patient visit, including cost, services utilized, and time-related information.
+```
+healthcare-visit-analysis/
+├── data/
+│   ├── raw/                     # Original source data
+│   └── processed/
+│       └── integrated_output.csv
+├── notebooks/
+│   ├── 01_data_prep.ipynb       # Data cleaning and integration
+│   └── 02_eda.ipynb             # Exploratory data analysis
+├── results/
+│   └── figures/                 # Generated visualizations
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
 
-No real patient data is involved. The raw dataset is not included in this repository.
+## Dataset Overview
 
-## Project Status
-This project is under active development.
-Notebooks and analysis artifacts will be added incrementally as the workflow is refactored and cleaned.
+Each row represents a single patient visit with the following key attributes:
 
-## Planned Structure
-- `notebooks/` — data preparation and exploratory analysis notebooks
-- `data/` — data documentation (raw data not included)
-- `reports/figures/` — exported figures for key findings
+| Variable         | Type        | Description                       |
+| ---------------- | ----------- | --------------------------------- |
+| `visit_id`       | Identifier  | Unique visit identifier           |
+| `patient_id`     | Identifier  | Patient identifier                |
+| `clinic_id`      | Categorical | Clinic where visit occurred       |
+| `procedure_code` | Categorical | Procedure identifier              |
+| `procedure_name` | Categorical | Procedure description             |
+| `specialty`      | Categorical | Medical specialty                 |
+| `amount`         | Continuous  | Billed amount per unit            |
+| `quantity`       | Discrete    | Number of units                   |
+| `revenue`        | Continuous  | Total revenue (amount × quantity) |
+| `standard_cost`  | Continuous  | Standard procedure cost           |
+| `region_name`    | Categorical | Geographic region                 |
+| `is_refund`      | Boolean     | Refund indicator                  |
+| `is_outlier`     | Boolean     | Outlier flag from data prep       |
 
-## Reproducibility
-Python-based analysis environment.
-Dependencies will be documented in `requirements.txt` as the project stabilizes.
+## Analysis Summary
 
+### Univariate Findings
+- **Amount & Revenue**: Highly right-skewed with extreme outliers; log transformation reveals more symmetric underlying distributions
+- **Standard_Cost**: Approximately symmetric, reflecting standardized pricing tiers
+- **Quantity**: Discrete, most procedures involve single units
+
+### Bivariate Findings
+- Strong correlation between Amount and Revenue (r = 0.86)
+- Weak correlation between Standard_Cost and actual Amount charged (r = 0.04), suggesting pricing variability from discounts/adjustments
+- Revenue varies significantly across Specialties and Procedures
+
+## Key Visualizations
+
+### Correlation Matrix
+![Correlation Matrix](results/figures/correlation_matrix.png)
+
+### Measure Variable Distributions
+![Boxplot Grid](results/figures/boxplot_grid.png)
+
+### Scatterplots vs Revenue
+![Scatter vs Revenue](results/figures/scatter_vs_revenue.png)
+
+## Setup
+
+### Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### Running the Analysis
+1. Ensure data is in `data/processed/integrated_output.csv`
+2. Run notebooks in order:
+   - `01_data_prep.ipynb` - Data preparation
+   - `02_eda.ipynb` - Exploratory analysis
+
+Figures are saved to `results/figures/`.
+
+## Requirements
+
+- Python 3.9+
+- pandas >= 2.0
+- numpy >= 1.24
+- matplotlib >= 3.7
+- seaborn >= 0.12
+- scipy >= 1.10
+- statsmodels >= 0.14
