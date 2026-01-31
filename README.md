@@ -12,7 +12,7 @@ healthcare-visit-analysis/
 │       └── integrated_output.csv
 ├── notebooks/
 │   ├── 01_data_prep.ipynb       # Data cleaning and integration
-│   └── 02_eda.ipynb             # Exploratory data analysis
+│   └── 02_EDA.ipynb             # Exploratory data analysis
 ├── results/
 │   └── figures/                 # Generated visualizations
 ├── .gitignore
@@ -74,7 +74,7 @@ pip install -r requirements.txt
 1. Ensure data is in `data/processed/integrated_output.csv`
 2. Run notebooks in order:
    - `01_data_prep.ipynb` - Data preparation
-   - `02_eda.ipynb` - Exploratory analysis
+   - `02_EDA.ipynb` - Exploratory analysis
 
 Figures are saved to `results/figures/`.
 
